@@ -17,6 +17,7 @@ Result data set stored in the file `tidy_data.txt`.
 ## Variables
 
 `activity` - defines volunteer activity state.
+
 `subject` - identifies the subject who performed the activity for each window sample.
 
 Measurement variables use following naming convention:
@@ -25,8 +26,13 @@ Measurement variables use following naming convention:
 ```
 
 *domain* - defines signals in time (`time`) / frequency (`freq`) domains.
+
 *Target* - defines measurement target: `Body` / `Gravity`.
+
 *Sensor* - defines sensor: accelerometer (`Acc`) / gyroscope (`Gyro`).
+
 *Type* - defines sensor measurement type: jerk (`Jerk`) / magnitude (`Mag`).
+
 *Function* - defines applied function: mean (`Mean`), standard deviation (`Std`).
+
 *Direction* - defines direction for 3-axial signals.
