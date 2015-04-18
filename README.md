@@ -4,7 +4,7 @@ This repository contains [R script](run_analysis.R) for cleaning source data set
 
 ## Script Execution
 For retrieving tidy data set you should execute `run_analysis.R` with R runtime.
-While processing will be downloaded source data archive, analyzed and saved a tidy data in file `tidy_data.txt`.
+While processing will be downloaded source data archive, analyzed and saved tidy data set in the file `tidy_data.txt`.
 
 ## Result Data Structure 
 Detailed information about data structure can be found in [Code Book](CodeBook.md).
